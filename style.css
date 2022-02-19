@@ -36,7 +36,7 @@ img:hover{
     height: 310px;
     padding: 5px;
     display: block;
-    background-color: beige;
+    background-color: lightgray;
 }
 .parent:before{
     content: '';

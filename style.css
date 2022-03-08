@@ -23,7 +23,7 @@
     width: 100%;
     padding: 20px;
 }
-img{
+.imgdiv img{
     filter: grayscale(100);
     width: 300px;
     height: 300px;
@@ -47,6 +47,19 @@ img:hover{
     height: 7px;
     background-image: linear-gradient(to right, #ffff00 10%, #ffff00 10%, #852456 10%, #852456 20%, #ea561b 20%, #ea561b 30%, #c5a4bd 30%, #c5a4bd 40%, #468499 40%, #468499 50%, #66cdaa 50%, #66cdaa 60%, #cc0000 60%, #cc0000 70%, #ffaa33 70%, #ffaa33 80%, #000179 80%, #000179 90%, #a49bda 90%, #a49bda 100%);
 }
-
+.img-img{
+    display: block;
+    overflow: hidden;
+    width: 450px;
+    height: 300px;
+    border: solid 1px #ff0000;
+}
+.img-img img{
+    transition: .7s;
+}
+.img-img:hover img{
+    transform: rotate(15deg) scale(1.4);
+    opacity: .7;
+}
 
 
